@@ -35,6 +35,7 @@ instructions in next section).
 
 * `hotcues-to-memory-cues.py [M]`: replicates all hot cues as memory cues. it
   does not delete any existing hot cues or memory cues.
+* `m3u8-to-folder`: export a M3U8 file to a folder containing all music files referenced on the M3U8 file
 * `memory-cues-to-hotcues.py [M]`: same as above but in reverse
 * `show-low-bitrate.py`: shows tracks with less than a given bitrate; default
   is 320kbps. note that vbr encoded tracks may show a bitrate of 0.
